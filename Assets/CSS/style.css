@@ -1,0 +1,20 @@
+  /* Content Framing */
+.cont{
+    border:solid 5px black;
+}
+
+/* HEADER */
+header{
+    text-align:center;
+}
+
+/* Text Within */
+p{
+    text-align: center;
+    padding: 25%;
+}
+
+.leftBox{
+    border-right: solid 5px black;
+}
+
