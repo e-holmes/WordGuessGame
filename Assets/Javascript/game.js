@@ -31,7 +31,7 @@ function reset(){
     usrWrd = wrd.split("");
     console.log(usrWrd);
     dash();
-    document.getElementById("userWord").innerHTML = usrWrd;
+    document.getElementById("userWord").innerHTML = usrWrd.join(" ");
     ltrs=[];
     document.getElementById("letters").innerHTML = "Letters Used: " +ltrs;
     document.getElementById("wins").innerHTML = "Wins: " +wins;
