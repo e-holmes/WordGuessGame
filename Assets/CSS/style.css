@@ -35,6 +35,10 @@ p{
     border-right: solid 5px black;
 }
 
+.btn{
+    border: solid 2px black;
+}
+
 
 img{
     width:50%;
