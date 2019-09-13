@@ -1,20 +1,57 @@
-  /* Content Framing */
-.cont{
-    border:solid 5px black;
+body{
+    background-image: url("../images/stars.gif");
 }
 
 /* HEADER */
 header{
+    color: white;
     text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
 }
 
-/* Text Within */
+/* Writing Styling */
 p{
-    text-align: center;
-    padding: 25%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
-.leftBox{
+/* Content Framing */
+.cont{
+    border:solid 5px black;
+    background-color: lightgrey;
+}
+
+/* Scores and Letters and Counter*/
+.box{
+    padding-top:10%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Inner Box Divider */
+.bor{
     border-right: solid 5px black;
 }
 
+
+img{
+    width:50%;
+    margin:2%;
+    margin-left:25%;
+}
+
+.var{
+    font-style: italic;
+
+}
+
+
+#userWord{
+    letter-spacing: 5px;
+    padding: 10%;
+    text-align: center;
+    font-size: 150%;
+    font-style: bold;
+    
+}
